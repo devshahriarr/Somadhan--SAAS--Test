@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    body {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    }
+
+}
+
+.react-datepicker-wrapper {
+    @apply w-full;
+}
+
+.react-datepicker__input-container input {
+    @apply w-full py-2 px-3 border border-gray-300 dark:border-gray-600 text-sm rounded-md bg-surface-light dark:bg-surface-dark text-text dark:text-text-dark focus:ring-1 focus:ring-primary dark:focus:ring-primary-dark focus:border-primary dark:focus:border-primary-dark;
+}
+
+.react-datepicker {
+    @apply bg-surface-light dark:bg-surface-dark border-gray-300 dark:border-gray-600 text-text dark:text-text-dark;
+}
+
+.react-datepicker__header {
+    @apply bg-surface-light dark:bg-surface-dark text-text dark:text-text-dark border-gray-300 dark:border-gray-600;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+    @apply bg-primary text-white dark:bg-primary-dark dark:text-text-dark;
+}
+
+.react-datepicker__day:hover {
+    @apply bg-primary text-white dark:bg-primary-dark dark:text-text-dark;
+}

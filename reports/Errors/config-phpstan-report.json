@@ -1,0 +1,17 @@
+{
+    "totals": { "errors": 0, "file_errors": 1 },
+    "files": {
+        "E:\\live Projects\\EIL POS\\Eclipse POS\\config\\app.php": {
+            "errors": 1,
+            "messages": [
+                {
+                    "message": "Array has 2 duplicate keys with value 'Excel' ('Excel', 'Excel').",
+                    "line": 220,
+                    "ignorable": true,
+                    "identifier": "array.duplicateKey"
+                }
+            ]
+        }
+    },
+    "errors": []
+}

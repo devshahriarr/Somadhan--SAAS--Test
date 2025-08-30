@@ -1,0 +1,864 @@
+{
+    "totals": { "errors": 0, "file_errors": 117 },
+    "files": {
+        "E:\\live Projects\\EIL POS\\Eclipse POS\\app\\Http\\Controllers\\AffiliatorController.php": {
+            "errors": 13,
+            "messages": [
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 44,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 70,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 70,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 73,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 135,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 192,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 192,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 198,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 217,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 217,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 223,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 250,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 261,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                }
+            ]
+        },
+        "E:\\live Projects\\EIL POS\\Eclipse POS\\app\\Http\\Controllers\\CRMController.php": {
+            "errors": 1,
+            "messages": [
+                {
+                    "message": "Undefined variable: $error_message",
+                    "line": 87,
+                    "ignorable": true,
+                    "identifier": "variable.undefined"
+                }
+            ]
+        },
+        "E:\\live Projects\\EIL POS\\Eclipse POS\\app\\Http\\Controllers\\CourierManageController.php": {
+            "errors": 84,
+            "messages": [
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 48,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 48,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 74,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 79,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 85,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 91,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 162,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 162,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 190,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 193,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 194,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 435,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 435,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 446,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 447,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 448,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 483,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 483,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 494,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 495,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 496,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 504,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 504,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 516,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 518,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 519,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 531,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 531,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 541,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 545,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 554,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 554,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 559,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 580,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 580,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 585,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 598,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 598,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 603,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 633,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 633,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 638,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 651,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 651,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 656,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 681,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 681,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 686,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 702,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 702,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 708,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 709,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 710,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 711,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 714,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 714,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 720,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 721,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 722,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 723,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 726,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 726,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 732,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 733,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 734,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 735,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 755,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 755,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 761,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 763,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 764,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 765,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 768,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 768,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 774,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 775,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 776,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 777,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 780,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 780,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 786,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 787,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 788,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method user() on an unknown class Auth.",
+                    "line": 789,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                }
+            ]
+        },
+        "E:\\live Projects\\EIL POS\\Eclipse POS\\app\\Http\\Controllers\\ProductsController.php": {
+            "errors": 3,
+            "messages": [
+                {
+                    "message": "Call to static method info() on an unknown class Log.",
+                    "line": 984,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method debug() on an unknown class Log.",
+                    "line": 1057,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method error() on an unknown class Log.",
+                    "line": 1068,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                }
+            ]
+        },
+        "E:\\live Projects\\EIL POS\\Eclipse POS\\app\\Http\\Controllers\\PurchaseController.php": {
+            "errors": 6,
+            "messages": [
+                {
+                    "message": "Call to static method loadView() on an unknown class PDF.",
+                    "line": 1133,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method raw() on an unknown class DB.",
+                    "line": 1150,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method raw() on an unknown class DB.",
+                    "line": 1151,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method raw() on an unknown class DB.",
+                    "line": 1152,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method raw() on an unknown class DB.",
+                    "line": 1153,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                },
+                {
+                    "message": "Call to static method raw() on an unknown class DB.",
+                    "line": 1154,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "class.notFound"
+                }
+            ]
+        },
+        "E:\\live Projects\\EIL POS\\Eclipse POS\\app\\Http\\Controllers\\ReportController.php": {
+            "errors": 1,
+            "messages": [
+                {
+                    "message": "Array has 2 duplicate keys with value 'totalSalary' ('totalSalary', 'totalSalary').",
+                    "line": 1395,
+                    "ignorable": true,
+                    "identifier": "array.duplicateKey"
+                }
+            ]
+        },
+        "E:\\live Projects\\EIL POS\\Eclipse POS\\app\\Http\\Controllers\\SearchController.php": {
+            "errors": 1,
+            "messages": [
+                {
+                    "message": "Access to an undefined property App\\Http\\Controllers\\SearchController::$elasticsearchService.",
+                    "line": 525,
+                    "ignorable": true,
+                    "tip": "Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property",
+                    "identifier": "property.notFound"
+                }
+            ]
+        },
+        "E:\\live Projects\\EIL POS\\Eclipse POS\\app\\Imports\\ProductsImport.php": {
+            "errors": 7,
+            "messages": [
+                {
+                    "message": "Inner named functions are not supported by PHPStan. Consider refactoring to an anonymous function, class method, or a top-level-defined function. See issue #165 (https://github.com/phpstan/phpstan/issues/165) for more details.",
+                    "line": 31,
+                    "ignorable": true,
+                    "identifier": "function.inner"
+                },
+                {
+                    "message": "Inner named functions are not supported by PHPStan. Consider refactoring to an anonymous function, class method, or a top-level-defined function. See issue #165 (https://github.com/phpstan/phpstan/issues/165) for more details.",
+                    "line": 43,
+                    "ignorable": true,
+                    "identifier": "function.inner"
+                },
+                {
+                    "message": "Inner named functions are not supported by PHPStan. Consider refactoring to an anonymous function, class method, or a top-level-defined function. See issue #165 (https://github.com/phpstan/phpstan/issues/165) for more details.",
+                    "line": 55,
+                    "ignorable": true,
+                    "identifier": "function.inner"
+                },
+                {
+                    "message": "Function validateRow not found.",
+                    "line": 70,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "function.notFound"
+                },
+                {
+                    "message": "Function convertExcelDate not found.",
+                    "line": 80,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "function.notFound"
+                },
+                {
+                    "message": "Function convertExcelDate not found.",
+                    "line": 81,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "function.notFound"
+                },
+                {
+                    "message": "Function generateUniqueBarcode not found.",
+                    "line": 143,
+                    "ignorable": true,
+                    "tip": "Learn more at https://phpstan.org/user-guide/discovering-symbols",
+                    "identifier": "function.notFound"
+                }
+            ]
+        },
+        "E:\\live Projects\\EIL POS\\Eclipse POS\\app\\Repositories\\RepositoryClasses\\SaleRepository.php": {
+            "errors": 1,
+            "messages": [
+                {
+                    "message": "Non-abstract class App\\Repositories\\SaleRepository\\SaleRepository contains abstract method getAllSale() from interface App\\Repositories\\RepositoryIntefaces\\SaleInterface.",
+                    "line": 8,
+                    "ignorable": false,
+                    "identifier": "method.abstract"
+                }
+            ]
+        }
+    },
+    "errors": []
+}

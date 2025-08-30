@@ -1,0 +1,17 @@
+{
+    "totals": { "errors": 0, "file_errors": 1 },
+    "files": {
+        "E:\\live Projects\\EIL POS\\Eclipse POS\\routes\\console.php": {
+            "errors": 1,
+            "messages": [
+                {
+                    "message": "Undefined variable: $this",
+                    "line": 18,
+                    "ignorable": true,
+                    "identifier": "variable.undefined"
+                }
+            ]
+        }
+    },
+    "errors": []
+}

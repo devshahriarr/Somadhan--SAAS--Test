@@ -1,0 +1,17 @@
+{
+    "totals": { "errors": 0, "file_errors": 1 },
+    "files": {
+        "E:\\live Projects\\EIL POS\\Eclipse POS\\resources\\views\\pos\\report\\today\\today_sale_table.blade.php": {
+            "errors": 1,
+            "messages": [
+                {
+                    "message": "File ends with a trailing whitespace. This may cause problems when running the code in the web browser. Remove the closing ?> mark or remove the whitespace.",
+                    "line": 1,
+                    "ignorable": true,
+                    "identifier": "whitespace.fileEnd"
+                }
+            ]
+        }
+    },
+    "errors": []
+}
