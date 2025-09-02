@@ -59,6 +59,16 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 
 */
+
+use App\Http\Controllers\Tenant\TenantController;
+
+// Landlord routes (no tenancy middleware)
+Route::domain(env('APP_URL', 'localhost'))->group(function () {
+    Route::get('/admin/tenants', [TenantController::class, 'index'])->name('landlord.tenants.index');
+    Route::get('/admin/tenants/create', [TenantController::class, 'create'])->name('landlord.tenants.create');
+    Route::post('/admin/tenants', [TenantController::class, 'store'])->name('landlord.tenants.store');
+});
+
 // routes/web.php
 // Route::middleware(['web', 'tenancy'])->group(function () {
 //     Route::get('/test-tenant', function () {
@@ -99,14 +109,14 @@ Route::middleware(['auth', 'verified'])->group(function () {
 Route::middleware('auth')->group(function () {
 
     // routes/web.php
-    // Route::middleware(['web', 'tenancy'])->domain('{domain}.localhost')->group(function () {
-    //     Route::get('/test-tenant', function () {
-    //         return response()->json([
-    //             'current_tenant' => \Spatie\Multitenancy\Models\Tenant::current(),
-    //             'products' => \App\Models\Product::all(),
-    //         ]);
-    //     });
-    // });
+    Route::middleware(['web', 'tenancy'])->domain('{domain}.localhost')->group(function () {
+        Route::get('/test-tenant', function () {
+            return response()->json([
+                'current_tenant' => \Spatie\Multitenancy\Models\Tenant::current(),
+                'products' => \App\Models\Product::all(),
+            ]);
+        });
+    });
 
     // Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     // Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

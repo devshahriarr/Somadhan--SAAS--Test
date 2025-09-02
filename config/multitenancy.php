@@ -9,7 +9,8 @@ use Spatie\Multitenancy\Actions\ForgetCurrentTenantAction;
 use Spatie\Multitenancy\Actions\MakeQueueTenantAwareAction;
 use Spatie\Multitenancy\Actions\MakeTenantCurrentAction;
 use Spatie\Multitenancy\Actions\MigrateTenantAction;
-use Spatie\Multitenancy\Models\Tenant;
+use Illuminate\Support\Facades\Log;
+// use Exception;
 
 return [
     'tenant_finder' => \Spatie\Multitenancy\TenantFinder\DomainTenantFinder::class,
@@ -18,15 +19,15 @@ return [
         'table' => 'tenants',
         'identifier_column' => 'domain',
     ],
-    'domain' => env('APP_URL', 'http://localhost'),
-    'tasks' => [
-        // Remove SwitchTenantDatabaseTask for shared database
-        // \Spatie\Multitenancy\Tasks\SwitchTenantDatabaseTask::class,
-    ],
+    // 'domain' => env('APP_URL', 'http://localhost'),
+
     'switch_tenant_tasks' => [
-        function () {
-            \Log::info('Tenant current: ' . optional(\Spatie\Multitenancy\Models\Tenant::current())->id);
-        },
+        // For single DB you usually keep this empty, or optionally:
+        // \Spatie\Multitenancy\Tasks\PrefixCacheTask::class, // only if you want tenant-specific cache
+        // \Spatie\Multitenancy\Tasks\ApplyTenantScopesTask::class,
+        // function () {
+        //     Log::info('Tenant current: ' . optional(\Spatie\Multitenancy\Models\Tenant::current())->id);
+        // },
     ],
     'tenant_database_connection_name' => env('DB_CONNECTION', 'mysql'),
     'landlord_database_connection_name' => env('DB_CONNECTION', 'mysql'),

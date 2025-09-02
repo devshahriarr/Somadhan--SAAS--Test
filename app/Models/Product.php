@@ -10,6 +10,13 @@ class Product extends Model
 {
     use UsesTenantModel;
     use HasFactory;
+    use \App\Traits\TenantScoped;  // Add this
+
+    protected static function boot()
+    {
+        parent::boot();
+        static::bootTenantScoped();  // Activate the global scope
+    }
 
     protected $guarded = [];
 

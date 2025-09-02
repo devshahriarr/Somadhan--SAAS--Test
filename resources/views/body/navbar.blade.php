@@ -179,7 +179,7 @@
                                 <i class="icon-sm text-white" data-feather="alert-circle"></i>
                             </div>
                             <div class="flex-grow-1 me-2">
-                                <p>Low stock: {{ $stock->product->name }}</p> <!-- Display product name -->
+                                <p>Low stock: {{ $stock->product->name ?? ''}}</p> <!-- Display product name -->
                                 <p class="tx-12 text-muted">{{ $stock->stock_quantity }} units left</p>
                             </div>
                         </a>

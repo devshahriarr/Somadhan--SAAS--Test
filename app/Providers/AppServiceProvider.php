@@ -25,6 +25,7 @@ use App\Repositories\RepositoryInterfaces\DamageInterface;
 use App\Repositories\RepositoryInterfaces\EmployeeInterface;
 use App\Repositories\RepositoryInterfaces\SubCategoryInterface;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Log;
 
 class AppServiceProvider extends ServiceProvider
 {

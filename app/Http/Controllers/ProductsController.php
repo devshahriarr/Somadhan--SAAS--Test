@@ -25,12 +25,14 @@ use PhpOffice\PhpSpreadsheet\Writer\Ods\Settings;
 use Yajra\DataTables\Facades\DataTables;
 use App\Models\Tenant;
 
+
 class ProductsController extends Controller
 {
     public function tenantTesting()
     {
+        // dd("hello");
         $tenant = Tenant::current();
-        \Log::info('Current Tenant ID: ' . $tenant->id);
+        Log::info('Current Tenant ID: ' . $tenant->id);
         // $products = Product::where('tenant_id', $tenant->id)->get();
         return response()->json([
             'current_tenant' => $tenant,
@@ -38,6 +40,16 @@ class ProductsController extends Controller
             'products' => Product::all(),
         ]);
     }
+
+    // public function tenantTesting()
+    // {
+    //     $tenant = Tenant::current();
+    //     Log::info('Current Tenant ID: ' . $tenant->id);
+    //     return response()->json([
+    //         'current_tenant' => $tenant,
+    //         'products' => Product::forCurrentTenant()->get(),  // Add this scope
+    //     ]);
+    // }
     public function index()
     {
         // dd('hello');
