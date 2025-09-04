@@ -21,10 +21,13 @@ class TenantSeeder extends Seeder
         Role::firstOrCreate([
             'name' => 'admin',
             'tenant_id' => $tenant->id,
+            'guard_name' => 'web',
         ]);
+
         Role::firstOrCreate([
             'name' => 'staff',
             'tenant_id' => $tenant->id,
+            'guard_name' => 'web',
         ]);
 
         // Create default category
