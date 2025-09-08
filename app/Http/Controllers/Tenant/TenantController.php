@@ -65,8 +65,12 @@ class TenantController extends Controller
             'password' => Hash::make($request->admin_password),
         ]);
 
-        // Assign admin role (using Spatie Permission)
-        $role = Role::firstOrCreate(['name' => 'admin', 'tenant_id' => $tenant->id]);
+        // Assign admin role
+        $role = Role::firstOrCreate([
+            'name' => 'admin',
+            'tenant_id' => $tenant->id,
+            'guard_name' => 'web',
+        ]);
         $user->assignRole($role);
 
         // Optional: Seed tenant-specific data

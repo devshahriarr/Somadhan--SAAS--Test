@@ -37,10 +37,10 @@ class TenantSeeder extends Seeder
         ]);
 
         // Create default POS settings
-        PosSetting::create([
-            'tenant_id' => $tenant->id,
-            'key' => 'default_settings',
-            'value' => json_encode(['currency' => 'USD']),
-        ]);
+        // PosSetting::create([
+        //     'tenant_id' => $tenant->id,
+        //     'key' => 'default_settings',
+        //     'value' => json_encode(['currency' => 'USD']),
+        // ]);
     }
 }

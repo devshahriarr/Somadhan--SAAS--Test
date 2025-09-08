@@ -52,17 +52,31 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    // ///for Role Permission /////
+    // // ///for Role Permission /////
+    // public static function getPermissiongroup()
+    // {
+    //     if (Auth::user()->id === 4) {
+    //         $permission_groups = DB::table('permissions')->select('group_name')->orderBy('group_name')->get();
+
+    //         return $permission_groups;
+    //     } else {
+    //         $permission_groups = DB::table('permissions')->select('group_name')->where('group_name', '!=', 'limit')->orderBy('group_name')->get();
+
+    //         return $permission_groups;
+    //     }
+    // }
+
     public static function getPermissiongroup()
     {
+        $query = DB::table('permissions')
+            ->select('group_name')
+            ->where('tenant_id', Tenant::current()->id) // Add tenant scoping
+            ->orderBy('group_name');
+
         if (Auth::user()->id === 4) {
-            $permission_groups = DB::table('permissions')->select('group_name')->orderBy('group_name')->get();
-
-            return $permission_groups;
+            return $query->get();
         } else {
-            $permission_groups = DB::table('permissions')->select('group_name')->where('group_name', '!=', 'limit')->orderBy('group_name')->get();
-
-            return $permission_groups;
+            return $query->where('group_name', '!=', 'limit')->get();
         }
     }
 
@@ -72,6 +86,16 @@ class User extends Authenticatable
 
         return $permissions;
     }
+
+    // public static function getPermissionByGroupName($group_name)
+    // {
+    //     return DB::table('permissions')
+    //         ->select('name', 'id')
+    //         ->where('group_name', $group_name)
+    //         ->where('tenant_id', Tenant::current()->id) // Add tenant scoping
+    //         ->get();
+    // }
+
 
     public static function roleHasPermissions($role, $permissions)
     {

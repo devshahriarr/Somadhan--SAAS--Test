@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         $tables = [
-            'branches', 'customers', 'banks', 'bank_to_bank_transfers', 'bank_adjustments',
+            'branches', 'customers', 'banks', 'categories', 'bank_to_bank_transfers', 'bank_adjustments',
             'employees', 'expenses', 'products', 'purchases', 'promotions', 'actual_payments',
             'transactions', 'pos_settings', 'employee_salaries', 'sms', 'account_transactions',
             'returns', 'company_balances', 'via_sales', 'investors', 'companies', 'user_limits',
